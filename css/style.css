@@ -87,7 +87,6 @@ a.active {
     animation-fill-mode: backwards;
     animation-direction: alternate;
 }
-
 @keyframes anim {
     0% {
         transform: translateX(-100px);
@@ -99,5 +98,13 @@ a.active {
     }
 }
 /* end of banner */
-
 /* end of Header */
+
+/* mission */
+.mission {}
+.underline {
+    width: 150px;
+    border: 3px solid #eee;
+    margin: auto;
+}
+/* end of mission */
