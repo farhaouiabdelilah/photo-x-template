@@ -141,3 +141,27 @@ a.active {
     }
 }
 /* end of mission */
+
+/* Collections */
+.c-card {
+    box-shadow: 10px 15px 30px #444;
+    cursor: pointer;
+}
+.c-title {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background: #222;
+    padding: 12px;
+    width: 75%;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+.c-img:hover {
+    transform: scale(1.5);
+}
+.c-title:hover {
+    opacity: 1;
+}
+/* end of Collections */
