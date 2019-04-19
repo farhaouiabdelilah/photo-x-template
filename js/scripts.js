@@ -25,4 +25,15 @@ $(document).ready(function(){
         }
     });
 
+    // Gallery Image filter
+    $('.gallery-list-item').click(function(){
+        let value = $(this).attr('data-filter');
+        if(value === 'all') {
+            $('.filter').show(500);
+        } else {
+            $('.filter').not('.'+value).hide(500);
+            $('.filter').filter('.'+value).show(500);
+        }
+    });
+
 });
