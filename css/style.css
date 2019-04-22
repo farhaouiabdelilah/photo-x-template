@@ -177,6 +177,46 @@ a.active {
     user-select: none;
     color: #777;
 }
-
-
 /* end of Gallery */
+
+/* Price Table  */
+.price-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/price-card-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    padding: 15px 0px;
+    border-bottom: 1px groove #888;
+    text-transform: uppercase;
+}
+
+.price-list li{
+    padding: 25px 0px 12px 0px;
+    border-bottom: 1px solid #777;
+    width: 75%;
+    margin: auto;
+}
+
+.buy-btn {
+    border-radius: 0;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.6s;
+    border: none;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+}
+.buy-btn:focus {
+    border: 0;
+    box-shadow: none;
+}
+.buy-btn:hover {
+    color: #fff;
+    background: #000;
+}
+/* End of Price Table  */
