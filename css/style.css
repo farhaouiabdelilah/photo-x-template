@@ -5,7 +5,11 @@ body {
 /* Header */
 header {
     height: 100vh;
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/banner-image.jpg") no-repeat center center / cover;
+=======
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/sahadatsays/photo-x-template/master/images/banner-image.jpg") no-repeat center center / cover;
+>>>>>>> e716a45c3b1016dabc11d4288e7daec1f13a7225
 }
 
 .brand-animation {
