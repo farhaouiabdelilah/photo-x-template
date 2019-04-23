@@ -185,6 +185,7 @@ a.active {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    box-shadow: 5px 15px 25px #999;
 }
 
 .card-title {
@@ -210,6 +211,7 @@ a.active {
     width: 75%;
     margin: auto;
     border-radius: 20px;
+    margin-bottom: 25px;
 }
 .buy-btn:focus {
     border: 0;
@@ -220,3 +222,78 @@ a.active {
     background: #000;
 }
 /* End of Price Table  */
+
+/* Contact */
+.contact {
+    background: linear-gradient(120deg, 
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.7) 50%,
+        transparent 50%),
+         url('/images/contact-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contanct-form {
+ 
+}
+
+.input {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.input:focus {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: #ffc107 3px solid;
+}
+.send-btn {
+    border-radius: 0;
+    transition: all 0.5s;
+}
+
+/* -// end of Contact */
+/* Footer */
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.footer-list {
+    width: 100%;
+}
+.footer-link:hover {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.social-list {
+    border-bottom: #ffc107 1px groove;
+    width: 70%;
+    margin: auto;
+}
+.social-list li {
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+.social-link .fa-facebook {
+    color: #3C5A99;
+}
+.social-link .fa-twitter {
+    color: #00aced;
+}
+.social-link .fa-youtube {
+    color: #bb0000;
+}
+.social-link .fa-github {
+    color: #000;
+}
+.copy-right {
+    background: #000;
+}
+/* end of Footer */

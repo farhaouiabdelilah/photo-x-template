@@ -36,4 +36,10 @@ $(document).ready(function(){
         }
     });
 
+    // show input label
+    $(".input").keypress(function () {
+        $('label').removeClass("label");
+        $('label').addClass("label-show");
+    });
+
 });
