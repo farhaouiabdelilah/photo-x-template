@@ -5,7 +5,7 @@ body {
 /* Header */
 header {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("/images/banner-image.jpg") no-repeat center center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/banner-image.jpg") no-repeat center center / cover;
 }
 
 .brand-animation {
@@ -181,7 +181,7 @@ a.active {
 
 /* Price Table  */
 .price-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/price-card-bg.jpg') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('images/price-card-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -229,7 +229,7 @@ a.active {
         rgba(0, 0, 0, 0.5) 0%,
         rgba(0, 0, 0, 0.7) 50%,
         transparent 50%),
-         url('/images/contact-bg.jpg') no-repeat;
+         url('images/contact-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }

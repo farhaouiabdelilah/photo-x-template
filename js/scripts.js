@@ -35,11 +35,4 @@ $(document).ready(function(){
             $('.filter').filter('.'+value).show(500);
         }
     });
-
-    // show input label
-    $(".input").keypress(function () {
-        $('label').removeClass("label");
-        $('label').addClass("label-show");
-    });
-
 });
