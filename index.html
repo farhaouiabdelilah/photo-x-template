@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Photo-X Gallary Template </title>
   </head>
-  <body>
+  <body id="body">
     
     <!-- header -->
     <header>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-menu">
-        <a href="#" class="navbar-brand brand-animation">
+        <a href="index.html" class="navbar-brand brand-animation">
             <span class="text-uppercase h4 text-light">photo</span><span class="text-uppercase text-warning h2 font-weight-bold">X</span>
         </a>
         <button class="navbar-toggler nav-btn" data-toggle="collapse" data-target="#myNav" aria-expanded="false" aria-label="Navigation">
@@ -29,25 +29,25 @@
         <div class="collapse navbar-collapse justify-content-end" id="myNav">
             <ul class="navbar-nav nav-animation">
                 <li class="nav-item">
-                    <a href="#" class="nav-link mr-2 menu-item active">Home</a>
+                    <a href="#body" class="nav-link mr-2 menu-item active">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link mr-2 menu-item">Mission </a>
+                    <a href="#mission" class="nav-link mr-2 menu-item">Mission </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link mr-2 menu-item">Collaction </a>
+                    <a href="#collection" class="nav-link mr-2 menu-item">Collaction </a>
                 </li>
                 <li class="nav-item">
                     <a href="#gallery" class="nav-link mr-2 menu-item">Gallery </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link mr-2 menu-item">Customer </a>
+                    <a href="#customers" class="nav-link mr-2 menu-item">Customers </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link mr-2 menu-item">Pricing </a>
+                    <a href="#pricing" class="nav-link mr-2 menu-item">Pricing </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link mr-2 menu-item">Contact </a>
+                    <a href="#contact" class="nav-link mr-2 menu-item">Contact </a>
                 </li>
             </ul>
         </div>
@@ -62,7 +62,7 @@
     <!-- end of banner  -->
     </header>
     <!-- End of header -->
-    <section class="p-5 mission">
+    <section class="p-5 mission" id="mission">
         <div class="container-fluid">
             <!-- title -->
             <div class="row">
@@ -113,7 +113,7 @@
     </section>
 
     <!-- collections -->
-    <section class="collections p-5 bg-secondary">
+    <section class="collections p-5 bg-secondary" id="collection">
         <div class="container-fluid">
              <!-- title -->
             <div class="row">
@@ -255,7 +255,7 @@
     <!-- end of Gallery -->
 
     <!-- Customers -->
-    <section class="p-5 customers bg-dark">
+    <section class="p-5 customers bg-dark" id="customers">
         <div class="container-fluid">
             <!-- title -->
             <div class="row mb-3">
@@ -363,7 +363,7 @@
     <!-- end of Customers -->
 
     <!-- Price Table  -->
-    <section class="price-table bg-light p-5">
+    <section class="price-table bg-light p-5" id="pricing">
         <div class="container-fluid">
             <!-- title -->
             <div class="row mb-3">
@@ -428,7 +428,7 @@
     <!-- end of Price Table  -->
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container-fluid">
            <div class="row">
             <div class="col my-4 text-white text-left p-5">
@@ -554,5 +554,6 @@
     <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     <script src="vendor/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.0.3/smooth-scroll.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
